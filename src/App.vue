@@ -141,15 +141,15 @@ html{
   scroll-behavior:smooth
 }
 ::-webkit-scrollbar {
-	width: 2px;
-	height: 2px;
+	width: 2px !important;
+	height: 2px !important;
 }
 
 ::-webkit-scrollbar-track {
-	box-shadow: inset 0 0 6px transparent;
+	box-shadow: inset 0 0 6px transparent !important;
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: #00ffdd;
+	background-color: #00ffdd !important;
 }
 </style>
