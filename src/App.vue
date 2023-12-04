@@ -121,7 +121,7 @@ export default {
         },
         {
           icon: 'mdi-folder-outline',
-          id: 'projects',
+          id: 'project',
           text: 'Projects'
         },
         {
