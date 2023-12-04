@@ -27,7 +27,7 @@
           </v-scroll-x-reverse-transition>
     </v-app-bar>
 
-    <div class="mt-2 mx-4" v-if="isMobile">
+    <div class="mt-2 mx-4" v-if="isMobile" id="home">
       <v-scroll-x-transition>
         <span v-show="mode.navbar">
           <span class="text-h4">{ }</span>
@@ -40,27 +40,27 @@
       <v-flex md12 sm12 xs12 row no-gutters>
         <v-flex class="text-center" md6 sm12 xs12 :style="`font-size: ${isMobile ? '40px' : '50px'};`">
             <div class="mt-8">
-              <div id="inner-text">
+              <div id="inner-text" :class="isMobile? 'text-right' : ''">
 
               </div>
-              <div id="inner-text1">
+              <div id="inner-text1" :class="isMobile? 'text-right' : ''">
 
               </div>
-              <div id="inner-text2">
+              <div id="inner-text2" :class="isMobile? 'text-right' : ''">
 
               </div>
-              <div id="inner-text3">
+              <div id="inner-text3" :class="isMobile? 'text-right' : ''">
 
               </div>
-              <div id="inner-text4">
+              <div id="inner-text4" :class="isMobile? 'text-right' : ''">
 
               </div>
             </div>
         </v-flex>
         <v-flex md6 sm12 xs12 class="text-body-2">
             <div>
-              <code class="pa-0 ma-0 red">
-                  <pre class="my-1 typewriter">
+              <code class="pa-0">
+                  <pre :class="`my-1 typewriter ${isMobile ? 'float-right' : 'float-left'} `">
                       function showStackSkill(){
                           const skills = [
                               'PHP',
@@ -104,10 +104,13 @@
                     <v-flex class="pa-2" md6 sm12 xs12 v-for="(item,key) in education" :key="`educ_${key}`">
                       <v-card>
                         <v-card-title>
-                          {{item.school}}
+                          <p>
+                            {{item.school}}
+                            <v-spacer/>
                           (
-                          <span class="success--text">{{item.year}}</span>
-                        )
+                            <span class="success--text">{{item.year}}</span>
+                          )
+                          </p>
                         </v-card-title>
                         <v-card-subtitle>
                             <i>{{item.address}}</i>
@@ -152,7 +155,7 @@
               <!-- PROJECTS -->
               <div>
                   <div class="text-center text-h6 pa-2" id="project">My Projects</div>
-                  <p>
+                  <p class="text-justify">
                     In 3 years time with my current job, I do develop and maintain mostly In-house applications listed below: 
                   </p>
                   <ul class="pb-4">
@@ -225,7 +228,7 @@
           {
             company: "SL AGRITECH CORPORATION",
             position: "Junior Programmer",
-            year: "Nov. 2020 - Present",
+            year: "November 2020 - Present",
             details: [
               "Build In-house Web/Standalone Application, Maintenance, Backup and Monitoring of all application.",
               "Support user concern's",

@@ -38,6 +38,7 @@
           bottom
           right
           fixed
+          transition="scale-transition"
         >
           <template v-slot:activator>
             <v-btn
@@ -45,6 +46,7 @@
               color="blue darken-2"
               dark
               fab
+              tran
             >
               <v-icon v-if="fab">
                 mdi-close
@@ -73,7 +75,7 @@
             <span>{{item.text}}</span>
           </v-tooltip>
 
-        </v-speed-dial>
+    </v-speed-dial>
   </v-app>
 </template>
 
@@ -137,5 +139,17 @@ export default {
 <style>
 html{
   scroll-behavior:smooth
+}
+::-webkit-scrollbar {
+	width: 2px;
+	height: 2px;
+}
+
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #00ffdd;
 }
 </style>
