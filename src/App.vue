@@ -42,11 +42,9 @@
         >
           <template v-slot:activator>
             <v-btn
-              v-model="fab"
               color="blue darken-2"
               dark
               fab
-              tran
             >
               <v-icon v-if="fab">
                 mdi-close
@@ -57,7 +55,6 @@
             </v-btn>
           </template>
 
-
           <v-tooltip left v-for="(item,key) in actions" :key="`actions_${key}`">
             <template v-slot:activator="{on,attrs}">
               <v-btn
@@ -67,7 +64,6 @@
               v-on="on"
               v-bind="attrs"
               :href="'#' +item.id"
-              @click="fab = !fab"
               >
               <v-icon>{{item.icon}}</v-icon>
               </v-btn>
@@ -83,6 +79,7 @@
 export default {
   name: 'App',
   data: () => ({
+      fab: false,
       icons: [
         {
           icon: 'mdi-facebook',
