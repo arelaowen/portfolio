@@ -372,7 +372,6 @@
 .typewriter {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
   animation: 
     typing 3.5s steps(30, end),
     blink-caret .5s step-end infinite;
