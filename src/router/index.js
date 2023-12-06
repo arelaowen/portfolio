@@ -9,6 +9,11 @@ const routes = [
     alias: '/owenarela',
     name: 'home',
     component: () => import('@/views/index.vue')
+  },
+  {
+    path: '/resume',
+    name: 'resume',
+    component: () => import('@/views/resume.vue')
   }
 ]
 

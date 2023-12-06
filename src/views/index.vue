@@ -23,6 +23,7 @@
             <v-btn class="mr-1" text href="#work">Work Experience</v-btn>
             <v-btn class="mr-1" text href="#project">Projects</v-btn>
             <v-btn text href="#contact">Contact</v-btn>
+            <v-btn text @click="$router.push({path: '/resume'})">My Resume</v-btn>
           </div>
           </v-scroll-x-reverse-transition>
     </v-app-bar>

@@ -39,6 +39,7 @@
           right
           fixed
           transition="scale-transition"
+          v-if="$route.name == 'home'"
         >
           <template v-slot:activator>
             <v-btn
