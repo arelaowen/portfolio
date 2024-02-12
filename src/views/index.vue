@@ -28,13 +28,19 @@
           </v-scroll-x-reverse-transition>
     </v-app-bar>
 
-    <div class="mt-2 mx-4" v-if="isMobile" id="home">
+    <div class="mt-2 mx-4 d-flex" v-if="isMobile" id="home">
       <v-scroll-x-transition>
         <span v-show="mode.navbar">
           <span class="text-h4">{ }</span>
           <span class="text-caption">wen</span>
         </span>
       </v-scroll-x-transition>
+      <v-spacer/>
+        <v-scroll-x-reverse-transition>
+          <div v-show="mode.navbar">
+            <v-btn text @click="$router.push({path: '/resume'})">My Resume</v-btn>
+          </div>
+          </v-scroll-x-reverse-transition>
     </div>
    
     <v-container fluid>
