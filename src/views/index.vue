@@ -162,28 +162,27 @@
               <!-- PROJECTS -->
               <div>
                   <div class="text-center text-h6 pa-2" id="project">My Projects</div>
-                  <p class="text-justify">
-                    In 3 years time with my current job, I do develop and maintain mostly In-house applications listed below: 
-                  </p>
                   <ul class="pb-4">
-                    HRIS AND COMPANY PAYROLL SYSTEM (REPLACEMENT FOR OLD SYSTEM)
-                    <li class="ml-10">These applications is used for Storing Employee Information, Employee Timekeepig, Payroll Computation and Generation of Reports that provides HR needs.</li>
-                    <li class="ml-10">Application is built using CodeIgniter as its backend and VUEJS for its front.</li>
+                    SWFS (Sterling Workforce System)
+                    <li class="ml-10"> SWFS is a combined HRIS and Payroll System proposed as a replacement for the old, existing payroll and HRIS systems.</li>
+                    <li class="ml-10"> SWFS is built using modern technologies and programming languages to enhance user experience, optimize performance, and deliver comprehensive and complex data reports.</li>
+                    <li class="ml-10"> SWFS is poised to deliver enhanced productivity, more accurate reporting, and a smoother workflow for the organization.</li>
                   </ul>
                   <ul class="pb-4">
-                    EMPLOYEE SELF SERVICE PORTAL (REPLACEMENT FOR OLD SYSTEM)
-                    <li class="ml-10">The purpose of this application is to allow employees to do task such as filing of leave, etc. that were traditionally handled by HR.</li>
-                    <li class="ml-10">Application is built using CodeIgniter as its backend and VUEJS for its front.</li>
+                    ESS-PORTAL (Employee Self Service Portal)
+                    <li class="ml-10">ESS Portal is a proposed replacement for the old existing timekeeping filing system.</li>
+                    <li class="ml-10">The ESS Portal, built using modern technologies, aims to offer an interactive user interface and streamline the process of filing and approving of leave, overtime, under time, and other requests.</li>
+                    <li class="ml-10">ESS Portal is likely to result in more efficient HR operations, better time management, and an overall increase in productivity within the organization.</li>
                   </ul>
                   <ul class="pb-4">
-                    APPLICANT TRACKING SYSTEM(ONBOARDING SYSTEM)
+                    APPLICANT TRACKING SYSTEM
                     <li class="ml-10">The purpose of this application is to give HR facilities to handle the process of job application upto onboarding.</li>
                     <li class="ml-10">Application is built using CodeIgniter as its backend and VUEJS for its front.</li>
                   </ul>
                   <ul>
-                    SPOTT(STERLING PAPER ONLINE TIME TRACKER)
-                    <li class="ml-10">This is a mobile application for DTR of field employees who are not able to do biometrics.</li>
-                    <li class="ml-10">Application is built using Nativescript Vue.</li>
+                    SPOTT (Sterling Paper Online Time Tracking)
+                    <li class="ml-10">SPOTT is a proposed mobile application designed to track the attendance of field personnel and roving employees who move between different locations.</li>
+                    <li class="ml-10">SPOTT aims to provide fast and efficient attendance tracking during timekeeping, helping timekeepers simplify their processes.</li>
                   </ul>
               </div>
             </div>
@@ -237,10 +236,10 @@
             position: "Junior Programmer",
             year: "November 2020 - Present",
             details: [
-              "Build In-house Web/Standalone Application, Maintenance, Backup and Monitoring of all application.",
-              "Support user concern's",
-              "Maintain Company Email software",
-              "Monthly Reporting and Retrospect"
+              "Develop in-house web or standalone applications using contemporary technologies and programming tools.",
+              "Maintain existing company payroll and other in-house application and deliver support to its end user/s.",
+              "Handling maintenance of 3rd party email software.",
+              "Monitor the server hosting the company's system on a monthly basis."
             ]
           },
           {
@@ -249,8 +248,9 @@
             year: "March 2020 - May 2020",
             details: [
               "Build Web Application",
-              "Maintain/Update Existing Application",
-              "Document and create user manual"
+              "Resolve assigned ticket such bug fixing, creation of new module, updating module, etc. across all company system projects",
+              "Document all task and provides report on a weekly basis",
+              "Support end user/s."
             ]
           },
           {
